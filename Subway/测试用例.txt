@@ -1,0 +1,12 @@
+-map subway.txt
+-map sub.txt
+-a 1号线 -map subway.txt -o station.txt
+-a  1号线 -map subway.txt -m station.txt
+-a 1号线  -map sub.txt -o routine.txt
+-b  苹果园 古城 -map subway.txt -o routine.txt
+-b 苹果园 八宝山 -map subway.txt -o routine.txt
+-b 公主坟 慈寿寺 -map subway.txt -o routine.txt
+-b 西四 湾子 -map subway.txt -o routine.txt
+-b 哈哈哈 湾子 -map subway.txt -o routine.txt
+-b 西四 哈哈哈哈 -map subway.txt -o routine.txt
+-b 西四 西四 -map subway.txt -o routine.txt
